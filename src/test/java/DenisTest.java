@@ -1,7 +1,10 @@
+import org.junit.jupiter.api.Test;
+
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.json.simple.JSONObject;
-import org.testng.annotations.Test;
+//import org.testng.annotations.Test;
+
 
 import static org.hamcrest.Matchers.equalTo;
 
