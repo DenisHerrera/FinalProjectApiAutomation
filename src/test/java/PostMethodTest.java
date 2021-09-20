@@ -1,5 +1,4 @@
 import org.junit.Test;
-
 import io.restassured.RestAssured;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
@@ -35,7 +34,6 @@ public class PostMethodTest {
                 .asString();
 
     }
-
     // Verify server response status code 200
     @Test
     public void validateLoginRegister(){

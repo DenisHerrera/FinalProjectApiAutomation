@@ -39,5 +39,13 @@ public class PutMethodTest {
 
         assertThat(nameUpdated,equalTo("zion resident"));
     }
+    public void ResponseType (){
+
+        if(name .equals(nameResult)){
+            System.out.println("They are of the same type");
+        }
+
+
+    }
 }
 
