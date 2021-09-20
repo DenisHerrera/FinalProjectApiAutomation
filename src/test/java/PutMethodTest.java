@@ -1,3 +1,5 @@
+import io.restassured.path.json.JsonPath;
+import org.junit.Assert;
 import org.junit.Test;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
@@ -39,11 +41,18 @@ public class PutMethodTest {
 
         assertThat(nameUpdated,equalTo("zion resident"));
     }
-    public void ResponseType (){
+    @Test
+    public void ResponseTypeString (){
+        String responseBody = given ().
+                when ().
+                get ("http://reqres.in/api/users/2") .
+                getBody ().
+                asString ();
+        //System.out.println("AQUI-->"+responseBody);
+        JsonPath resJson = new JsonPath(responseBody);
+        String nameString = resJson.getString ("data.first_name");
+        Assert.assertEquals ("Janet", nameString);
 
-        if(name .equals(nameResult)){
-            System.out.println("They are of the same type");
-        }
 
 
     }

@@ -1,5 +1,5 @@
-Request method:	PATCH
-+Request URI:	https://reqres.in/api/users/2
+Request method:	GET
+*Request URI:	http://reqres.in/api/users/2
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -9,31 +9,38 @@
 "				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
-Body:
-{
-    "name": "morpheus",
-    "job": "zion resident"
-}
+Body:			<none>
 HTTP/1.1 200 OK
-$Date: Mon, 20 Sep 2021 02:43:20 GMT
+$Date: Mon, 20 Sep 2021 03:47:41 GMT
 .Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 x-powered-by: Express
 access-control-allow-origin: *
-)etag: W/"50-Rz0ENvP2e3WjcexAH5dP3jywcG0"
+*etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
 via: 1.1 vegur
-CF-Cache-Status: DYNAMIC
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+	Age: 465
 cExpect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-ýReport-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=GX9eiVeYSzuvOZ2S9lB%2FJOvaik82GMtphNqUkF%2FFNm%2BTiYjLboXo0KtSHELGVBMDpgqaKj%2Ft%2BqHoXISMbskfJSv6U0FZcRMuEMbFidfXwZSY6qfzN0RZ61XICwo%3D"}],"group":"cf-nel","max_age":604800}
+õReport-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WZRaEveTUvTNSs7yhLl60IBLQsKjtAapLhwYYBKqVYsRAV7LF96WYQfLXPApVdrLbOW5jNMCUqn0uCgCPMmKCtAqUFYH1I6QHpq7J8bENNLGM%2F7fqCqDW3ZVYcE%3D"}],"group":"cf-nel","max_age":604800}
 BNEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 6917b4a18a34e51a-ARI
+CF-RAY: 691812e86c58e52e-ARI
 Content-Encoding: gzip
 ealt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
 
 {
-    "name": "morpheus",
-    "job": "zion resident",
-,    "updatedAt": "2021-09-20T02:43:20.387Z"
+    "data": {
+        "id": 2,
++        "email": "janet.weaver@reqres.in",
+        "first_name": "Janet",
+        "last_name": "Weaver",
+<        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    "support": {
+5        "url": "https://reqres.in/#support-heading",
+[        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
 }
