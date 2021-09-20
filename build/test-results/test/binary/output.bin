@@ -1,0 +1,105 @@
+Request method:	PATCH
+,Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Denis",
+    "job": "Quality Assurance"
+}
+HTTP/1.1 200 OK
+%Date: Mon, 20 Sep 2021 11:43:11 GMT
+/Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-powered-by: Express
+ access-control-allow-origin: *
+*etag: W/"51-LEtD+jrDA+9gpEU7JVCK2Yfyiz0"
+via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+dExpect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+úReport-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Q9F4kPaMeZAeX7jU%2BN8bX4jB1XTpzFh%2Baozr6%2B2fFdfigZ9uDGmk5xDB8diIQl9PbhImyRhpYI09w7Vupog4DVTMAAAccd20HjoV6ZMA5PphSbOJerMPVSQKz7o%3D"}],"group":"cf-nel","max_age":604800}
+CNEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 691acb6fec36e51a-ARI
+Content-Encoding: gzip
+falt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+
+{
+    "name": "Denis",
+     "job": "Quality Assurance",
+,    "updatedAt": "2021-09-20T11:43:11.779Z"
+}
+Request method:	DELETE
+,Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+,Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+,Request URI:	https://reqres.in/api/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+%Date: Mon, 20 Sep 2021 11:43:14 GMT
+Content-Length: 0
+Connection: keep-alive
+x-powered-by: Express
+ access-control-allow-origin: *
+)etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+dExpect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+üReport-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FURFZtnz41jX0VJ%2FrE8YJUTIUc8uQ7FFdskjLuKj3zomT6o4eKaMkDljL3UiK5fo77Ju6moZbGWDhszc5gpDtr6Ewd93CSEXI4y%2BqcvaYm6Fn7vyexdcLHy7%2F1Y%3D"}],"group":"cf-nel","max_age":604800}
+CNEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 691acb7f6afde51e-ARI
+falt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
+HTTP/1.1 204 No Content
+%Date: Mon, 20 Sep 2021 11:43:14 GMT
+Content-Length: 0
+Connection: keep-alive
+x-powered-by: Express
+ access-control-allow-origin: *
+)etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+dExpect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+üReport-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FURFZtnz41jX0VJ%2FrE8YJUTIUc8uQ7FFdskjLuKj3zomT6o4eKaMkDljL3UiK5fo77Ju6moZbGWDhszc5gpDtr6Ewd93CSEXI4y%2BqcvaYm6Fn7vyexdcLHy7%2F1Y%3D"}],"group":"cf-nel","max_age":604800}
+CNEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 691acb7f6afde51e-ARI
+falt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400, h3-28=":443"; ma=86400, h3-27=":443"; ma=86400
